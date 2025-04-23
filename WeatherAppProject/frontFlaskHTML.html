@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask Example</title>
+    <!-- Reference your CSS file here -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class = "zipCodeGrab">
+        <form method="POST">
+            <label for="zipcode">Zipcode or location name</label>
+            <input type="text" class = "fancy-input" id="zipcode" name="zipcode" placeholder="">
+            <button type="submit">Check Weather</button>
+        </form>
+    </div>
+    
+    <h1>{{ weather }}</h1>
+
+    <div class = "imageStuff">
+    {% if weather_image %}
+        <img src="{{ url_for('static', filename=weather_image) }}" alt="Weather Icon" width="350">
+    {% endif %}
+    </div>
+
+</body>
+</html>
