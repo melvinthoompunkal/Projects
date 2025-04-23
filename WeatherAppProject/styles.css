@@ -1,0 +1,42 @@
+body{
+    background-color: #D2E9F6;
+}
+h1{
+    text-align: center;
+    margin-top: 70px;
+}
+form{
+    text-align: center;
+    margin-top: 200px;
+    font-weight: bold;
+    font-size: 30px
+}
+.zipCodeGrab{
+    width: 350px;
+    height: 115px;
+    margin: 0 auto; 
+    text-align: center; 
+}
+
+.fancy-input {
+    background-color: #f9f9f9;  
+    border: 1px solid #ccc;     
+    border-radius: 8px;   
+    margin-top:10px;       
+    padding: 10px 45px;         
+    font-size: 16px;            
+    color: #333;                
+    outline: none;              
+    transition: border-color 0.3s ease;
+    text-align: center;
+  }
+  
+  .fancy-input:focus {
+    border-color: #007bff;       
+    background-color: #fff;      
+  }
+  .imageStuff{
+    margin: 0 auto;
+    text-align: center;
+    
+  }
