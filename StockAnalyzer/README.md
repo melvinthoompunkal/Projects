@@ -86,7 +86,3 @@ pip install pandas yfinance matplotlib google-api-python-client google-auth nump
 ## License
 
 This project is open-source and free to use under the MIT License.
-
----
-
-Feel free to ask if you want me to customize it further or add usage examples, screenshots, or contribution guidelines!
