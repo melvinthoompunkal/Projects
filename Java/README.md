@@ -61,7 +61,7 @@ The output will be:
 * This program demonstrates a potential **race condition** if `Thread 2` starts before `Thread 1` finishes. However, the use of `t1.join()` ensures that `Thread 2` waits until all numbers are read before summing.
 * All exceptions are handled with basic `printStackTrace()`, which can be improved for production-level code.
 
-##What I learned
+## What I learned
 
 
 Through this project, I learned how to use multithreading in Java to perform concurrent tasks. I created two threads: one to read integers from a file and another to compute their sum. 
