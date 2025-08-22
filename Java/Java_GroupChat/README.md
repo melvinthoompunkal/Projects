@@ -20,14 +20,14 @@ This project demonstrates socket programming, multithreading, and a Swing-based 
 ---
 
 ## Project Structure
-```
+
 
 ├── Server.java          # Runs the server, accepts client connections
 ├── ClientHandler.java   # Handles each client on its own thread
 ├── Client.java          # Console-based client (from WittCode tutorial)
 ├── ClientUI.java        # GUI client (Swing-based, my extension)
 
-````
+
 
 ---
 
@@ -36,7 +36,7 @@ This project demonstrates socket programming, multithreading, and a Swing-based 
    ```bash
    javac Server.java ClientHandler.java
    java Server
-````
+
 
 The server will listen on port **1234**.
 
@@ -54,12 +54,6 @@ The server will listen on port **1234**.
 
    * Type messages in the client window.
    * Messages are broadcast to all connected clients.
-
----
-
-## Screenshot (example UI)
-
-<img width="1125" height="881" alt="Screenshot 2025-08-22 at 3 36 25 PM" src="https://github.com/user-attachments/assets/d287aa42-3958-49ef-b78e-8d3fb36f9dd8" />
 
 ---
 
