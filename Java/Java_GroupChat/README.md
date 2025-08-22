@@ -83,10 +83,10 @@ The base client-server chat project was created by [**WittCode**](https://www.yo
 
 This repository builds on that foundation with additional features such as a Swing-based graphical client.
 
-```
+
 
 ---
 
 The base code of the server, client, and clientHandler are from WittCode and I used it to learn how sockets work as well as threading. This project helped me take a deeper dive into threading practices.
 The serverUI and clientUI were done by me through research and looking through different sources. 
-```
+
